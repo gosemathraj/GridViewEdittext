@@ -25,6 +25,7 @@ public class CustomAdapter extends BaseAdapter {
     public CustomAdapter(List<String> list, Context context) {
         this.list = list;
         this.context = context;
+
     }
 
     @Override
@@ -86,5 +87,6 @@ public class CustomAdapter extends BaseAdapter {
 
         private EditText editText;
         int ref;
+
     }
 }
